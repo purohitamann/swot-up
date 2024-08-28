@@ -8,6 +8,7 @@ const SafariBrowserFrame = ({ children }: { children: React.ReactNode }) => {
                     <div style={{ ...styles.circle, backgroundColor: '#ff605c' }}></div>
                     <div style={{ ...styles.circle, backgroundColor: '#ffbd44' }}></div>
                     <div style={{ ...styles.circle, backgroundColor: '#00ca4e' }}></div>
+                    {/* // Add more circles as needed */}
                 </div>
                 <div style={styles.browserAddressBar}>
                     <div style={styles.addressBarInput}></div>
